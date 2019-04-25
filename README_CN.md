@@ -14,7 +14,7 @@
 #### 根据dockerfile构建
 > docker build -t yhan219/seaweedfs-webp:1.0 .
 
-#### 运行
+### 运行
 > docker run -d --name seaweedfs-webp -e volumeServer="http://ip:8080" -p 18080:80 yhan219/seaweedfs-webp:1.0
 
  其中`volumeServer`参数为seaweedfs中的volume地址

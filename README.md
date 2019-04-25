@@ -16,7 +16,7 @@ Based on `docker` with `golang` expand [seaweedfs](https://github.com/chrislusf/
 #### build with dockerfile
 > docker build -t yhan219/seaweedfs-webp:1.0 .
 
-#### run
+### run
 > docker run -d --name seaweedfs-webp -e volumeServer="http://ip:8080" -p 18080:80 yhan219/seaweedfs-webp:1.0
 
  the param `volumeServer` is seaweedfs volume url
