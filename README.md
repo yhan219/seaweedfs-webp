@@ -11,7 +11,7 @@ Based on `docker` with `golang` expand [seaweedfs](https://github.com/chrislusf/
 ### build
  There are two ways to construct it, either way.
 #### pull from docker hub
-> docker pull yhan219/seaweedfs-webp:lastest
+> docker pull yhan219/seaweedfs-webp
 
 #### build with dockerfile
 > docker build -t yhan219/seaweedfs-webp:1.0 .
