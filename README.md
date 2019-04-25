@@ -4,8 +4,7 @@
 
 [中文文档](README_CN.md)
 
-Based on `docker` with `golang` expand [seaweedfs](https://github.com/chrislusf/seaweedfs) implementation convert to webp images
-
+It is a [seaweedfs](https://github.com/chrislusf/seaweedfs) webp convert service with `docker` and `golangs`.
 ## Docker
 
 ### build
