@@ -9,7 +9,7 @@
 ### 构建
  有两种构建方式,任取其一.
 #### 从docker hub中pull
-> docker pull yhan219/seaweedfs-webp:lastest
+> docker pull yhan219/seaweedfs-webp
 
 #### 根据dockerfile构建
 > docker build -t yhan219/seaweedfs-webp:1.0 .
